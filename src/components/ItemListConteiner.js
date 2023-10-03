@@ -1,9 +1,26 @@
-export const Saludo = ({Nombre}) => {
+import { useEffect } from "react";
+import { pedirDatos } from "../helpers/pedirDatos";
+import { useState } from "react";
+import ItemList from "./ItemList";
 
-return <div>
-<h1>Bienvenido {Nombre} 🍔! </h1>
+const ItemListConteiner = () => {
 
-</div>
+    const [productos, setproductos] = useState([]);
 
+    
+    useEffect(() => {
+      pedirDatos()
+      .then((res) => {
+        setproductos(res);
 
+      })
+    }, [])
+    return (
+
+        <div> <ItemList productos={productos} />
+        </div>
+    )
 }
+
+
+export default ItemListConteiner

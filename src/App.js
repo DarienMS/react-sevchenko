@@ -1,13 +1,17 @@
 import './App.css';
 import { Navbar } from './components/Navbar';
-import { Saludo } from './components/ItemListConteiner';
+import ItemListConteiner, { Saludo } from './components/ItemListConteiner';
+import ItemDetailContainer from './components/ItemDetailConteiner';
 
 function App() {
   return <div>
     <Navbar/>
     <div className="bienvenido-class">
       
-      <Saludo Nombre= {"Pablo"} /></div>
+      <ItemListConteiner />
+      
+      <ItemDetailContainer itemId={2} />
+      </div>
     
     
   </div>
