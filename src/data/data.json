@@ -3,7 +3,7 @@
         "id": 1,
         "titulo": "Hamburguesa",
         "descripcion": "Pan, carne, queso",
-        "categoria": "comida",
+        "categoria": "platos",
         "imagen": "https://www.tupperware.com.ar/service/appng/tupperware-products/webservice/recipeImages/083938_666x468.jpg",
         "precio": 1500
 
@@ -12,7 +12,7 @@
         "id": 2,
         "titulo": "Hamburguesa especial",
         "descripcion": "Pan, carne, queso",
-        "categoria": "comida",
+        "categoria": "platos",
         "imagen": "https://acdn.mitiendanube.com/stores/964/640/products/hambur_completa1-081065d2846bee718716341513713205-640-0.png",
         "precio": 1500
 
@@ -21,7 +21,7 @@
         "id": 3,
         "titulo": "Daikiri",
         "descripcion": "Vodka,Limon,Hielo",
-        "categoria": "bebida",
+        "categoria": "tragos",
         "imagen": "https://es-mycooktouch.group-taurus.com/image/recipe/545x395/daikiri-frozzen?rev=1696084662006",
         "precio": 1500
 
@@ -30,7 +30,7 @@
         "id": 4,
         "titulo": "gintonic",
         "descripcion": "Vodka,Limon,Hielo",
-        "categoria": "bebida",
+        "categoria": "tragos",
         "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnN6G97lVCossbJ0VsA6bhdclUvHFNqPL0rQ&usqp=CAU",
         "precio": 1500
 
