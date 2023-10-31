@@ -145,6 +145,10 @@
   border: 2px solid var(--clr-main);
   transition: .2s;
 }
+.item-count p{
+
+  color: #000000;
+}
 
 .item-count button:hover, .agregar-al-carrito:hover, .enviar:hover {
   background-color: white;
@@ -176,4 +180,11 @@
   outline: 0;
   border: 2px solid var(--clr-main);
   outline: 2px solid var(--clr-main);
+}
+.nosotros-img {
+
+  margin-left: 5vw ;
+}
+.Carrito-style{
+margin-left: 67vw;
 }
