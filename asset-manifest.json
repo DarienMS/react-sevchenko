@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react-sevchenko/static/css/main.5e9f2807.css",
+    "main.js": "/react-sevchenko/static/js/main.1b7db1ba.js",
+    "index.html": "/react-sevchenko/index.html",
+    "main.5e9f2807.css.map": "/react-sevchenko/static/css/main.5e9f2807.css.map",
+    "main.1b7db1ba.js.map": "/react-sevchenko/static/js/main.1b7db1ba.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5e9f2807.css",
+    "static/js/main.1b7db1ba.js"
+  ]
+}
